@@ -60,7 +60,7 @@ Rules:
         method: "POST",
         headers: {
           Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           model: "openai/gpt-4o-mini",
@@ -68,21 +68,20 @@ Rules:
           max_tokens: 700,
           messages: [
             { role: "system", content: systemPrompt },
-            { role: "user", content: prompt }
-          ]
-        })
-      }
+            { role: "user", content: prompt },
+          ],
+        }),
+      },
     );
 
     const data = await response.json();
 
     return Response.json({
-      result: data.choices[0].message.content
+      result: data.choices[0].message.content,
     });
-
   } catch (error) {
     return Response.json({
-      result: "Your future self is temporarily unreachable."
+      result: "Your future self is temporarily unreachable.",
     });
   }
 }
