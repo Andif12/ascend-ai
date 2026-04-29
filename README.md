@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ASCEND AI 🚀
 
-## Getting Started
+**Meet The Future You**
 
-First, run the development server:
+ASCEND AI adalah aplikasi berbasis AI yang mensimulasikan **dirimu 10 tahun di masa depan** lalu memberikan nasihat personal, tajam, dan realistis berdasarkan kondisi hidupmu saat ini.
 
-```bash
+Bukan motivasi generik.
+Bukan jawaban template.
+Ini percakapan dengan versi terbaik dirimu.
+
+---
+
+## ✨ Features
+
+* 🔮 Future Self Simulation
+* 🌍 Auto Language Detection (Indonesia / English)
+* 🎯 Personalized Insight Based on User Input
+* 📈 Growth Score & Potential Score
+* ⚡ Fast AI Responses
+* 📱 Mobile Friendly
+* 🎨 Clean Modern UI
+
+---
+
+## 🧠 How It Works
+
+User mengisi:
+
+* Name
+* Age
+* Current Situation
+* Biggest Struggle
+* 5-Year Goal
+
+Lalu ASCEND AI menghasilkan:
+
+1. Future You Says
+2. What Happens If Nothing Changes
+3. Hidden Opportunity
+4. Next 7 Days Plan
+5. Success Trajectory
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend Framework
+
+* Next.js
+
+### AI Model / API Used
+
+* OpenRouter
+* GPT-4o Mini
+
+### Deployment
+
+* Vercel
+
+### Styling
+
+* CSS
+* Responsive Design
+
+---
+
+## 🚀 Live Demo
+
+ASCEND AI is live here:
+
+https://ascend-ai-lime.vercel.app/
+
+---
+
+## ⚙️ Getting Started
+
+Clone repository:
+
+```bash id="zc2s2q"
+git clone https://github.com/Andif12/ascend-ai.git
+cd ascend-ai
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔐 Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create file:
 
-## Learn More
+```env id="5l7ozh"
+.env.local
+```
 
-To learn more about Next.js, take a look at the following resources:
+Add:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env id="6r2frk"
+OPENROUTER_API_KEY=your_api_key_here
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy using Vercel:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push project to GitHub
+2. Import repository into Vercel
+3. Add Environment Variables
+4. Deploy
+
+---
+
+## 🎯 Vision
+
+ASCEND AI dibuat untuk membantu orang berhenti stagnan, berhenti bingung, dan mulai membangun masa depan yang lebih kuat.
+
+---
+
+## 👤 Author
+
+Built by Andi Magfirah Maqbul
+
+---
+
+## ⭐ Support
+
+Jika project ini menarik, beri star di GitHub ⭐
